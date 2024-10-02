@@ -15,3 +15,6 @@
 ============================================
 "ai generated eye": image credits
 (www.freepik.com)
+============================================
+"logo-easter-egg-portrate": image credits
+(https://img.freepik.com/)
