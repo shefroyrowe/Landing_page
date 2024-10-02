@@ -1,0 +1,107 @@
+:root {
+    --dark-background: #1f2937;
+    /*hero and footer*/
+    --text-color1: #faf9fa;
+    /*(px:48, weight:900, hero main text), (px:24, header and logo text)*/
+    --text-color2: #e5e7eb;
+    /*px:18, hero secondary text, quote section background color*/
+    --text-color3: #3882f6;
+    /*button and call to action background*/
+    --text-color4: #1f2937;
+    /*(px:36, weight:900 first 'section' header), (px:36, light-italic, quote-text color)*/
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header,
+footer {
+    background-color: var(--dark-background);
+    color: var(--text-color1);
+}
+
+header,
+main {
+    padding: 0 8rem;
+}
+
+header {
+    color: var(--text-color1);
+}
+
+nav,
+nav #nav-links ul,
+#hero {
+    display: flex;
+}
+
+nav {
+    height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+nav #nav-links ul li {
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+#nav-links ul li a,
+#logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+#hero {
+    padding: 5rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-text-div p {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#hero-text-div q,
+#hero-text-div cite {
+    font-size: 18px;
+    color: var(--text-color2);
+}
+
+#hero-text-div button {
+    position: absolute;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: var(--text-color1);
+    background-color: var(--text-color3);
+}
+
+#hero-image img {
+    border-radius: 8px;
+}
+
+
+footer {
+    height: 4rem;
+}
